@@ -1,3 +1,5 @@
+[![Gem Version](https://badge.fury.io/rb/slothify.svg)](https://badge.fury.io/rb/slothify)
+
 [![Build Status](https://travis-ci.org/krissy/slothify.svg?branch=master)](https://travis-ci.org/krissy/slothify)
 
 # Slothify
