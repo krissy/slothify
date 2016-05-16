@@ -38,8 +38,8 @@ To activate a refinement, you need to add the `using Slothify` syntax at the top
 		puts "Hello, fast world!".slothify
 		# => "Helloooo, fastttt worldddd!"
 
-    puts "Oh, hai.".slothify(10)
-    # => "Ohhhhhhhhhhh, haiiiiiiiiiii."
+		puts "Oh, hai.".slothify(10)
+		# => "Ohhhhhhhhhhh, haiiiiiiiiiii."
 	end
 
 ## Development
