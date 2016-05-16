@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/krissy/slothify.svg?branch=master)](https://travis-ci.org/krissy/slothify)
+
 # Slothify
 
 Slothify is a little [refinement](http://ruby-doc.org/core-2.3.0/doc/syntax/refinements_rdoc.html) to ruby's String class that lets you express yourself a little slowerrrr.
