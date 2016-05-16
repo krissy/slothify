@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["kriselda.rabino@gmail.com"]
 
   spec.summary        = "Slothify all the strings!"
-  spec.description    = "Slothify is a little String refinment that lets you express yourself a little slowerrrr"
+  spec.description    = "Slothify is a little String refinement that lets you express yourself a little slowerrrr"
   spec.homepage       = "http://rubygems.org/gems/slothify"
   spec.license        = "MIT"
 
