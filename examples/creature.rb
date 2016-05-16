@@ -6,15 +6,15 @@ class Creature
 using Slothify
 
   SUPER_SLOW = 10
-	attr_reader :name, :type, :speed
+  attr_reader :name, :type, :speed
 
-	def initialize(name, type, speed = :average)
+  def initialize(name, type, speed = :average)
     @name = name
     @type = type
-		@speed = speed
-	end
+    @speed = speed
+  end
 
-	def speak(str)
+  def speak(str)
     message = str
     if type == :sloth
       message = (speed == :super_slow ? str.slothify(SUPER_SLOW) : str.slothify)
@@ -33,6 +33,6 @@ craig.speak("Hi there.")
 senior_steve.speak("Why hello, party people...")
 
 # Output:
-# => "Hello, fast world!"
-# => "Hiiii, thereeee!"
-# => "Whyyyyyyyyy hellooooooooo, partyyyyyyyyy peopleeeeeeeee!"
+# Farida the ferret: Hello, fast world!
+# Craig the sloth: Hiiii thereeee.
+# Senior Steve the sloth: Whyyyyyyyyyyy hellooooooooooo, partyyyyyyyyyyy peopleeeeeeeeeee...
